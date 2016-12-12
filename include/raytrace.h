@@ -12,8 +12,8 @@
 #include "pplib.h"
 #include "illumination.h"
 
-#define SHININESS 20
-#define MAX_REC_LEVEL 7  
+#define SHININESS 30
+#define MAX_REC_LEVEL 5
 
 typedef struct Ray {
         double origin[3];

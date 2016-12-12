@@ -31,7 +31,9 @@ int main(int argc, const char * argv[]) {
         image->data = malloc(image->width * image->height*4);
         int pos = get_camera(objects);
 
-        printf("%d\n", image->width);
+        printf("Image Width: %d\n", image->width);
+        printf("Image Height: %d\n", image->height);
+        printf("Image maxval: %d\n", image->maxval);
   
         if (pos == -1) {
                 fprintf(stderr, "Error: main: No camera object found in data\n");
