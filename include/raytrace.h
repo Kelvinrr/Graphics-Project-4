@@ -12,8 +12,8 @@
 #include "pplib.h"
 #include "illumination.h"
 
-#define SHININESS 999999
-#define MAX_REC_LEVEL 5
+#define SHININESS 15
+#define MAX_REC_LEVEL 10
 
 // Struct to represent both position and direction
 typedef struct Ray {
